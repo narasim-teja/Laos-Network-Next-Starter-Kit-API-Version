@@ -39,7 +39,7 @@ Before you begin, you'll need to obtain the following API keys:
 1. **Clone the repository**
    ```bash
    git clone https://github.com/narasim-teja/Laos-Network-Next-Starter-Kit-API-Version.git
-   cd laos-network-nextjs-starter
+   cd Laos-Network-Next-Starter-Kit-API-Version
    ```
 
 2. **Install dependencies**
