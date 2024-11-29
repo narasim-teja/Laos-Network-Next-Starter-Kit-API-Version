@@ -124,7 +124,7 @@ export default function Home() {
             <div className="mt-8 p-6 bg-[#1a0d29] rounded-lg border border-[#432673] max-w-xl w-full">
               <h3 className="text-lg font-semibold mb-3">🔑 Get Started with API Keys</h3>
               <p className="text-gray-300 mb-4">
-                To use this starter kit, you'll need API keys from Laos Network. 
+                To use this starter kit, you&apos;ll need API keys from Laos Network. 
                 Join our community to get access to API keys and start building.
               </p>
               <a 
