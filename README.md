@@ -4,7 +4,7 @@ A complete Next.js-based starter kit for building NFT applications on Laos Netwo
 
 ## Features ✨
 
-- ⚡ Built with Next.js 14 + TypeScript
+- ⚡ Built with Next.js 15 + TypeScript
 - 🔑 API-based NFT operations
 - 🔐 Wallet Connection with Dynamic
 - 📝 NFT Collection Creation via API
@@ -44,7 +44,7 @@ Before you begin, you'll need to obtain the following API keys:
 
 2. **Install dependencies**
    ```bash
-   npm install
+   npm install --force || bun install || yarn install || pnpm install
    ```
 
 3. **Configure environment variables**
@@ -55,7 +55,7 @@ Before you begin, you'll need to obtain the following API keys:
 
 4. **Start the development server**
    ```bash
-   npm run dev
+   npm run dev || bun run dev || yarn run dev || pnpm run dev
    ```
 
 ## Network Configuration 🌐
@@ -97,7 +97,7 @@ Before you begin, you'll need to obtain the following API keys:
 
 ## Tech Stack 👨‍💻
 
-- Next.js 14
+- Next.js 15
 - TypeScript
 - Tailwind CSS
 - Dynamic Wallet SDK
