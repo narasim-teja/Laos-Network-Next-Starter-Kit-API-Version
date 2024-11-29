@@ -6,6 +6,7 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
@@ -33,6 +34,21 @@ const config: Config = {
     },
   },
   plugins: [],
+  future: {
+    hoverOnlyWhenSupported: true,
+  },
+  safelist: [
+    'bg-primary',
+    'hover:bg-primary-hover',
+    'bg-secondary',
+    'hover:bg-secondary-hover',
+    'text-foreground',
+    'bg-background',
+    {
+      pattern: /(bg|text|border)-(primary|secondary|background|foreground)/,
+      variants: ['hover', 'focus', 'active'],
+    },
+  ],
 }
 
 export default config;
